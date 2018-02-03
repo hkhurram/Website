@@ -1,1 +1,0 @@
-Code uses rgb values of color1 and gradually changes them to color2 as you scroll.
