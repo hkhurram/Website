@@ -4,11 +4,13 @@
 <!-- CSS --> 
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
-  @import url("https://use.typekit.net/tzf5mym.css");
+@import url("https://use.typekit.net/tzf5mym.css");
 </style>
+<link rel="shortcut icon" type="image/x-icon" href="Icon.png">
 
 
 <head>
+	<title>Hamna Khurram</title>
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -32,24 +34,6 @@
 			});
 		});
 
-		// // scroll
-		// $(document).ready(function(){
-		// 	var fixmeTop = $('.rightfloat').offset().top;
-		// 	$(window).scroll(function() {
-		// 		var currentScroll = $(window).scrollTop();
-		// 		if (currentScroll >= fixmeTop) {
-		// 			$('.leftfloat').css({
-		// 				position: 'fixed'
-		// 			});
-		// 		} else {
-		// 			$('.leftfloat').css({
-		// 				position: 'relative'
-		// 			});
-		// 		}
-		// 	});
-		// });
-
-
         // tabs 
         function openTab(evt, name) {
 
@@ -69,25 +53,19 @@
         	evt.currentTarget.className += " active";
         }
 
-
-
     </script>
 
 </head>
 
-<!-- Pages -->
+
 <body>
-
-
-
-
+	
 	<!-- Pages -->
 
 	<div class="panel" id="page1">
 		<a id="home" class="smooth"></a>
 		
 		<div class="container">
-			<div class="top-center"><h2>PROGRAMMING & DESIGN</h2></div>
 			<div class="centered"><h1>HAMNA KHURRAM</h1></div>
 
 			<!-- Navigation -->
@@ -99,17 +77,12 @@
 						<li><a href="#about">ABOUT</a></li>
 						<li>/</li>
 						<li><a href="#projects">PROJECTS</a></li>
-						<li>/</li>
-						<li><a href="#contact">CONTACT</a></li>
-
+						<!-- <li>/</li> -->
+					<!-- 	<li><a href="#contact">CONTACT</a></li> -->
 					</ul>
 				</div>
 			</div>
-			
 		</div>
-
-
-
 	</div>
 
 
@@ -117,21 +90,15 @@
 	<div class="panel" id="page2">
 		<a id="about" class="smooth"></a>
 
-
-
 		<div id="intro">
-
-			<div id="intxt">I am a second-year computer science student at Princeton University. 
-				My main areas of interest include computer graphics, human-computer interaction, and robotics. 
+			<div id="intxt">I am a rising senior at Princeton University. 
+				My main areas of interest include graphic design, business development, and strategy. 
 			</div>
 		</div>
 
-
-
-
 		<div id="title">ABOUT</div>
 
-		<div class="bottom">
+		<div class="bottom1">
 			<div id="navbar2">
 				<ul>
 					<li><a href="#home">HOME</a></li>
@@ -139,13 +106,11 @@
 					<li><a href="#about">ABOUT</a></li>
 					<li>/</li>
 					<li><a href="#projects">PROJECTS</a></li>
-					<li>/</li>
-					<li><a href="#contact">CONTACT</a></li>
-
+					<!-- <li>/</li> -->
+					<!-- <li><a href="#contact">CONTACT</a></li> -->
 				</ul>
 			</div>
 		</div>
-
 	</div>
 
 
@@ -155,21 +120,20 @@
 	<div class="panel" id="page3">
 		<a id="projects" class="smooth"></a>
 
-		
-
 		<div class="leftfloat">
 			<h3 class="proj">PROJECTS</h3>
 
 			<!-- Tab Links -->
 			<div class="tab">
-
 				<button class="tablinks" onclick="openTab(event, 'Coding')" class="tablinks active"><span class="inlineLinks">Coding</span></button>
 				<p>/</p>
 				<button class="tablinks" onclick="openTab(event, 'Design')"><span class="inlineLinks">Graphic Design</span></button>
 				<p>/</p>
-				<button class="tablinks" onclick="openTab(event, 'Digital')"><span class="inlineLinks">Sketchbook</span></button>
+				<button class="tablinks" onclick="openTab(event, 'Digital')"><span class="inlineLinks">Sketchbook</span></button> 
+			</div>			
+			
+			<div id = "learn"><p> Click on any of the projects to learn more about them. </p></div>
 
-			</div>
 
 			<!-- Navbar -->
 			<div id="navbar">
@@ -179,22 +143,20 @@
 					<li><a href="#about">ABOUT</a></li>
 					<li>/</li>
 					<li><a href="#projects">PROJECTS</a></li>
-					<li>/</li>
-					<li><a href="#contact">CONTACT</a></li>
+					<!-- <li>/</li> -->
+					<!-- <li><a href="#contact">CONTACT</a></li> -->
 
 				</ul>
 			</div>
 		</div>
 
 		<div class="rightfloat">
-
-
-
+			
 			<!-- Tab Content -->
 			<!-- Coding -->
 			<div id="Coding" class="tabcontent" style="display:block">
 
-				<div class="grid"> 
+				<div class="grid3"> 
 
 					<a href="coding.html">
 						<div id="entry">
@@ -241,8 +203,6 @@
 						</div>
 					</a>
 
-
-
 				</div>
 			</div>
 
@@ -267,47 +227,60 @@
 							<img src="Food.jpg">
 							<img src="Elephant.jpg">
 						</a>
-
-
 					</div>
 				</div>
-			</div>
+			</div> 
 
 
 			<!-- Graphic Design -->
 			<div id="Design" class="tabcontent">
 
-				<div class="grid"> 
+				<div class="grid3"> 
+
+					<a href="design2.html">
+						<div id="entry">
+							<img src="ewb.png" class="image" alt="design">
+							<div class="overlay">
+								<div class="text">Logo for Princeton's Engineers Without Borders - Peru chapter.</div>
+
+							</div>
+						</div>
+					</a>
 
 					<a href="design.html">
 						<div id="entry">
 							<img src="our.png" class="image" alt="design">
 							<div class="overlay">
 								<div class="text">Publication materials for Princeton's Office of Undergraduate Research.</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="design3.html">
+						<div id="entry">
+							<img src="litmag.png" class="image" alt="design">
+							<div class="overlay">
+								<div class="text">Cover designs for a literary magazine.</div>
 
 							</div>
 						</div>
 					</a>
 
+				
+
 				</div>
 			</div>
 		</div>
-
-
-
-
 	</div>
 
 
 
-	<!-- Contact -->
+	<!-- <!-- Contact -->
 
-	<div class="panel" id="page4">
+	<!-- <div class="panel" id="page4">
 		<a id="contact" class="smooth"></a>
 
-
 		<div class="floatleft">CONTACT
-
 
 			<div class="bottom">
 				<div id="navbar2">
@@ -318,46 +291,29 @@
 						<li>/</li>
 						<li><a href="#projects">PROJECTS</a></li>
 						<li>/</li>
-						<li><a href="#contact">CONTACT</a></li>
-
+						<!<li><a href="#contact">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
-
 		</div>
 
+ --> 
 
 
 		<!-- Email Form -->
-		<div class="floatright">
+		<!-- <div class="floatright">
 
 			<div class="form">
 
 				<form action="mailto:hkhurram@princeton.edu" method="post" enctype="text/plain">
-
-
 					<input type="text" name="name" placeholder="Name...">
-
-
 					<input type="text" name="mail" placeholder="Your e-mail...">
-
-
 					<textarea placeholder="Message..."></textarea>
-
-
 					<input type="submit" value="Send">
-
 				</form>
 			</div>
-
 		</div>
-
-
-	</div>
-
-
-
+	</div> -->
 
 </body>
-
 </html>
